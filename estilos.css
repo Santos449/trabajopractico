@@ -1,6 +1,11 @@
 body {
   background: #1D202B;
 }
+a {
+  text-decoration: none;
+  color: blanchedalmond;
+}
+
 .container {
   display:grid;
   grid-template-columns: 100% ;
