@@ -2,8 +2,14 @@ body {
   background: #1D202B;
 }
 a {
-  text-decoration: none;
+  transition: color 0.8s ease;
   color: blanchedalmond;
+  font-weight: 800;
+  text-decoration: none;
+}
+
+a:hover{
+  color: yellow;
 }
 
 .container {
@@ -26,6 +32,7 @@ a {
   height: 5vh; 
   text-align: center;
   align-items: center;
+  margin-bottom: 1rem;
 
 }
 
