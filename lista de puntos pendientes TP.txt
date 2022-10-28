@@ -10,14 +10,13 @@ destinado para ello. PENDIENTE
 
 
 ● Utilizar al menos un Iframe, íconos de FontAwesome o Flaticon; y fuentes locales o
-bien de Google Fonts. PENDIENTE
+bien de Google Fonts. LISTO!!! (coloqué un flaticon)
 
 ● Tener al menos una página totalmente responsive con 3 puntos de corte para 3
 tamaños de dispositivos distintos. LISTO!!!
 
 ● Incorporar al menos una animación, transformación o una transición (se deberá
-indicar en qué parte del sitio web fue incorporada la animación). LISTO!!! EN EL HEADER
-
+indicar en qué parte del sitio web fue incorporada la animación). LISTO!!! EN EL HEADER LOS LINKS
 
 ● Poseer una estructura HTML maquetada con Flexbox y/o Grid. LISTO!!!
 
