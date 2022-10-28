@@ -13,6 +13,9 @@ a:hover{
   
 } 
 
+p {
+  font-weight: 100;
+}
 .container {
   display:grid;
   grid-template-columns: 100% ;
@@ -52,12 +55,18 @@ a:hover{
   height: auto; 
 }
 
-.item {
-  background-color: blueviolet;
-  padding: 10px;
-  color: black;
-  border-radius: 10px;
+.containerOptions {
+  display:grid;
+  grid-area: opciones;
+  grid-template-columns: 300px 2fr;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 5px;
+  
+  
+
 }
+
+
 
 /* MEDIAS SCREEN */
 
@@ -66,18 +75,12 @@ a:hover{
 	
 }
 
-/* Tablet LandScape */
-@media screen and (min-width: 768px) and (max-width: 1024px) {
-	
-}
-
-
 /* Tablet Portrait */
 @media screen and (min-width: 480px) and (max-width: 768px){
 	
 }
 
-/* Phone landscape & smaller */
+/* Phone smaller */
 @media screen and (max-width: 480px) { 
   
 
@@ -85,6 +88,11 @@ a:hover{
     grid-template-columns: 1fr;
     
   }  
+
+  .containerOptions{
+    grid-template-columns: 1fr;
+    grid-template-rows: 250px 250px;
+  }
   
 	.imagenGrande{
 			display: none;
