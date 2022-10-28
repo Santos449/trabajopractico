@@ -1,5 +1,5 @@
 body {
-  background: #1D202B;
+  background: blueviolet;
 }
 a {
   transition: color 0.8s ease;
@@ -10,7 +10,8 @@ a {
 
 a:hover{
   color: yellow;
-}
+  
+} 
 
 .container {
   display:grid;
@@ -33,19 +34,22 @@ a:hover{
   text-align: center;
   align-items: center;
   margin-bottom: 1rem;
+  padding: 10px;
+  
 
 }
 
 .imagenGrande {
   background-color: blueviolet;
   grid-area: contenido;
-  height: 50vh; 
+  height: 1000px; 
+  
 }
 
 .footer {
   background-color: blueviolet;
   grid-area: footer;
-  height: 50vh; 
+  height: auto; 
 }
 
 .item {
@@ -56,29 +60,37 @@ a:hover{
 }
 
 /* MEDIAS SCREEN */
-@media screen and (max-width: 900px) {
+
+/* Desktop */
+@media screen and (min-width: 1024px) and (max-width: 1280px) {
 	
 }
 
-@media screen and (max-width: 700px) {
-	/* .contenedor-conciertos { 
+/* Tablet LandScape */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
 	
-		
-		grid-template-columns: repeat(2, 1fr);
-		gap: 10px;
-	}
-	.banner{
-		display: none;
-	}*/
 }
 
-@media screen and (max-width: 600px) {
-	/*.contenedor-conciertos {
+
+/* Tablet Portrait */
+@media screen and (min-width: 480px) and (max-width: 768px){
 	
-		
-		grid-template-columns: 1fr;
-		gap: 10px;}*/
+}
+
+/* Phone landscape & smaller */
+@media screen and (max-width: 480px) { 
+  
+
+  .header{
+    grid-template-columns: 1fr;
+    
+  }  
+  
 	.imagenGrande{
 			display: none;
 	}
+  
+  .footer{
+  height: none;
+ }
 }
