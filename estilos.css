@@ -1,3 +1,11 @@
+html {
+  font-family: 'Montserrat', sans-serif;
+}
+*{
+  box-sizing: border-box;
+  border: 0;
+  margin: 0;
+}
 body {
   background: blueviolet;
 }
@@ -45,14 +53,15 @@ p {
 .imagenGrande {
   background-color: blueviolet;
   grid-area: contenido;
-  height: 1000px; 
+  height: 40rem; 
   
 }
 
-.footer {
+.descripcion {
   background-color: blueviolet;
-  grid-area: footer;
-  height: auto; 
+  grid-area: auto ;
+  height: auto;
+  text-align: center;
 }
 
 .containerOptions {
@@ -66,6 +75,88 @@ p {
 
 }
 
+main {
+  background-color:rgba(0, 0, 0, 0.6);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+.titulox {
+  width: 100%;
+  height: auto;
+  gap: 15px;
+  align-items: center;
+}
+
+.div_titulo h2 {
+  font-size: 300%;
+  font-weight: bolder;
+  text-align: center;
+  color: #FFF6F3;
+  margin-top: 50px;
+}
+
+.div_titulo p {
+  font-weight: bolder;
+  text-align: center;
+  color: #FFF6F3;
+}
+
+.contacto{
+  color: #fff;
+  font-size: 16px;
+  margin: 0px 100px 40px 0;
+}
+
+
+form{
+  width: 60vw;
+  margin-top: 5vh;
+  margin-bottom: 45px;
+  display: grid;
+  gap: 30px;
+}
+
+.btn-primary {
+  width: 130px;
+}
+
+label {
+  color: #EDEAF8;
+}
+
+iframe {
+  margin-bottom: 50px;
+}
+
+footer{
+  background-color: #DACC96 ;
+  display: grid;
+  grid-template-rows: 2fr 1fr;
+  height: 5%;
+  width: 100%;
+  margin-bottom: 100%;
+}
+
+.div_direccion {
+  display: grid;
+  grid-template-rows: 1fr;
+  gap: 20px;
+  height: fit-content;
+  align-items: center;
+}
+
+.texto_direccion {
+  text-align: center;
+}
+
+.copyright{
+  text-align: center;
+  font-size: 60%;
+  font-weight: lighter;
+}
 
 
 /* MEDIAS SCREEN */
@@ -98,7 +189,4 @@ p {
 			display: none;
 	}
   
-  .footer{
-  height: none;
- }
 }
