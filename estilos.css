@@ -177,12 +177,16 @@ footer{
 
   .header{
     grid-template-columns: 1fr;
-    
+    margin-bottom: 14rem;
+   
   }  
 
   .containerOptions{
     grid-template-columns: 1fr;
-    grid-template-rows: 250px 250px;
+    grid-template-rows: 11rem 10rem;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 2rem;
   }
   
 	.imagenGrande{
