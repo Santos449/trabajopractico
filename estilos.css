@@ -69,8 +69,8 @@ p {
   grid-area: opciones;
   grid-template-columns: 300px 2fr;
   grid-template-rows: 1fr 1fr;
-  grid-gap: 5px;
-  
+  grid-gap: 2rem;
+  margin-bottom: 2rem;
   
 
 }
@@ -158,6 +158,9 @@ footer{
   font-weight: lighter;
 }
 
+section{
+  margin-bottom: 2rem;
+}
 
 /* MEDIAS SCREEN */
 
